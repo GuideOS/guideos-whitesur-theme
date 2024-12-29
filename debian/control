@@ -1,0 +1,13 @@
+Source: guideos-whitesur-theme
+Section: misc
+Priority: optional
+Maintainer: Actionschnitzel <actionschnitzel@guideos.de>
+Build-Depends: debhelper (>= 9),bash
+Standards-Version: 24.9.7
+Homepage: https://rueegger.me
+
+Package: guideos-whitesur-theme
+Architecture: all
+Depends: ${misc:Depends}, bash, sassc
+Description: Modification of WhiteSure Theme by vinceliuice
+ Mac-Like Icons with GuideOS-Logos.

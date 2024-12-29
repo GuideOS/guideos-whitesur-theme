@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+PACKAGE := guideos-whitesur-theme
+
+%:
+	dh $@
+
+override_dh_install:
+	# Erstellen der notwendigen Verzeichnisse
+	mkdir -p debian/$(PACKAGE)/usr/
+	mkdir -p debian/$(PACKAGE)/usr/share/doc/$(PACKAGE)
+
+	# Kopieren der Dateien
+	cp LICENSE debian/$(PACKAGE)/usr/share/doc/$(PACKAGE)/LICENSE
+	cp -r usr debian/$(PACKAGE)/
+	
+
+
+
+	dh_install

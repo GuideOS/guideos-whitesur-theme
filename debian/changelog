@@ -1,0 +1,17 @@
+guideos-whitesur-theme (24.9.7-3~guideos1) unstable; urgency=medium
+
+  * Removed opacity
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Wed, 19 Dec 2024 18:42:00 +0000
+
+guideos-whitesur-theme (24.9.7-2~guideos1) unstable; urgency=medium
+
+  * Fixed wrong location
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Thu, 03 Dec 2024 20:10:00 +0000
+
+guideos-whitesur-theme (24.9.7-1~guideos1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Thu, 03 Dec 2024 20:10:00 +0000
