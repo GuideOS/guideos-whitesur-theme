@@ -8,6 +8,6 @@ Homepage: https://rueegger.me
 
 Package: guideos-whitesur-theme
 Architecture: all
-Depends: ${misc:Depends}, bash, sassc
+Depends: ${misc:Depends}, bash, sassc, libglib2.0-dev-bin, libxml2-utils, imagemagick, dialog, ostree, appstream-util
 Description: Modification of WhiteSure Theme by vinceliuice
  Mac-Like Icons with GuideOS-Logos.
